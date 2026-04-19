@@ -83,8 +83,8 @@ Git · GitHub · VSCode · Kaggle
 
 ## 📫 Let's Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/usernamekamu)
-- 📧 email@kamu.com
+- 💼 [LinkedIn]([https://linkedin.com/in/usernamekamu](https://www.linkedin.com/in/muhammad-danu-firjatullah-rachman-740102261/))
+- 📧 muhammaddanufirjatullahrachman@gmail.com
 
 ---
 
