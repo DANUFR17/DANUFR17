@@ -1,4 +1,4 @@
-# Hi, I'm [Nama Kamu] 👋
+# Hi, I'm Muhammad Danu Firjatullah Rachman 👋
 
 I'm a **fresh graduate** transitioning into data science — building projects that turn raw data into decisions.
 
