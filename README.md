@@ -83,7 +83,7 @@ Git · GitHub · VSCode · Kaggle
 
 ## 📫 Let's Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-danu-firjatullah-rachman-740102261/)
+- 💼 [[LinkedIn](https://www.linkedin.com/in/muhammad-danu-firjatullah-rachman-740102261/)]
 - 📧 muhammaddanufirjatullahrachman@gmail.com
 
 ---
