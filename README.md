@@ -28,7 +28,7 @@ Currently focused on **e-commerce analytics**, **machine learning**, and **NLP**
 - Evaluated models using cross-validation and RMSE in original USD scale
 - **Stack**: Python · scikit-learn · XGBoost · pandas · matplotlib
 
-🔗 [View Repository](https://github.com/usernamekamu/house-price-prediction)
+🔗 [View Repository](https://github.com/DANUFR17/ecommerce-sales-analysis)
 
 ---
 
