@@ -40,7 +40,7 @@ Currently focused on **e-commerce analytics**, **machine learning**, and **NLP**
 - Visualized most influential words per sentiment class using wordcloud and coefficient analysis
 - **Stack**: Python · NLTK · scikit-learn · wordcloud · pandas
 
-🔗 [View Repository](https://github.com/usernamekamu/twitter-sentiment-analysis)
+🔗 [[View Repository](https://github.com/DANUFR17/twitter-sentiment-analysis)]
 
 ---
 
