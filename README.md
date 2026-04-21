@@ -16,7 +16,7 @@ Currently focused on **e-commerce analytics**, **machine learning**, and **NLP**
 - Segmented 96K customers into 4 behavioral groups using **RFM + K-Means clustering**
 - **Stack**: Python · pandas · scikit-learn · matplotlib · seaborn
 
-🔗 [View Repository](https://github.com/usernamekamu/ecommerce-sales-analysis)
+🔗 [[View Repository](https://github.com/DANUFR17/ecommerce-sales-analysis)]
 
 ---
 
