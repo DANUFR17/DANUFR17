@@ -34,12 +34,27 @@ Currently focused on **e-commerce analytics**, **machine learning**, and **NLP**
 ---
 
 ### 🐦 Twitter Sentiment Analysis
-> NLP pipeline to classify tweet sentiment as positive or negative
-
-- Built text preprocessing pipeline: URL removal, stopword filtering, tokenization
-- Achieved **79% accuracy** using TF-IDF + Logistic Regression on 50K tweets
-- Visualized most influential words per sentiment class using wordcloud and coefficient analysis
-- **Stack**: Python · NLTK · scikit-learn · wordcloud · pandas
+> 4-phase project: from EDA and classical ML to deep learning and live deployment
+ 
+Built on the **Sentiment140 dataset (1.6M tweets)**, this project demonstrates the full ML lifecycle — exploratory analysis, MLOps-grade training, deep learning, and production deployment.
+ 
+#### Phase 1 — Baseline
+- Built text preprocessing pipeline: URL/mention removal, stopword filtering, tokenization
+- Achieved **79% accuracy** with TF-IDF + Logistic Regression on 50K tweets
+- Visualized most influential words per class using wordcloud and coefficient analysis
+#### Phase 2 — Rich EDA & MLOps Pipeline
+- Conducted temporal analysis (sentiment by hour), top-user breakdown, and bigram/trigram analysis
+- Replaced single train/test split with **5-fold stratified cross-validation** for more reliable evaluation
+- Plotted **learning curves** to diagnose underfitting/overfitting
+- Used **GridSearchCV** to tune TF-IDF + LR hyperparameters (C, max_features, ngram range) — visualized results as a heatmap
+#### Phase 3 — Deep Learning
+- Built a **BiLSTM** (Keras) with global average + max pooling, EarlyStopping, and ReduceLROnPlateau
+- Integrated **`cardiffnlp/twitter-roberta-base-sentiment`** via HuggingFace Hub — a RoBERTa model pretrained on 58M tweets, chosen for domain match over fine-tuning from scratch
+- Benchmarked all 4 models (NB, LR, BiLSTM, RoBERTa) on accuracy, F1, and inference latency
+#### Phase 4 — Deployment
+- Built a **Streamlit app** with single-tweet and bulk analysis tabs, confidence gauge, pie chart, and CSV export
+- Built a **FastAPI backend** with `/predict`, `/predict/bulk`, and `/health` endpoints, Pydantic validation, and auto-generated Swagger docs
+**Stack**: Python · NLTK · scikit-learn · TensorFlow · PyTorch · HuggingFace Transformers · FastAPI · Streamlit · Plotly
 
 🔗 [[View Repository](https://github.com/DANUFR17/project-sentiment)]
 
