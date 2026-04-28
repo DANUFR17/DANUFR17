@@ -21,12 +21,13 @@ Currently focused on **e-commerce analytics**, **machine learning**, and **NLP**
 ---
 
 ### 🏠 House Price Prediction (Ames Housing)
-> Regression model to predict property sale prices from 80 features
-
-- Reduced prediction error from **~$29K** (Linear Regression) to **~$17K** (XGBoost) through hyperparameter tuning
-- Applied feature engineering, encoding, and log transformation on skewed target variable
-- Evaluated models using cross-validation and RMSE in original USD scale
-- **Stack**: Python · scikit-learn · XGBoost · pandas · matplotlib
+> End-to-end ML pipeline — feature engineering, ensemble stacking, SHAP interpretability, Streamlit deployment
+ 
+- Reduced prediction error from **~$29K** (Linear Regression) to **~$17K** (Stacking) — **36% improvement**
+- Built **model stacking** (Ridge + Lasso + XGBoost + LightGBM) with out-of-fold prediction to prevent data leakage
+- Applied **SHAP TreeExplainer** to explain individual predictions — feature I created (`TotalSF`) ranked #1 globally
+- Deployed as interactive **Streamlit app** with real-time SHAP waterfall visualization
+- **Stack**: Python · XGBoost · LightGBM · SHAP · Streamlit · scikit-learn
 
 🔗 [[View Repository](https://github.com/DANUFR17/house-price-prediction)]
 
