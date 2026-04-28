@@ -72,14 +72,19 @@ Python · SQL · pandas · NumPy
 scikit-learn · XGBoost · K-Means · Logistic Regression · Random Forest
 ```
 
-**NLP**
+**Deep Learning & NLP**
 ```
-NLTK · TF-IDF · text preprocessing
+TensorFlow · PyTorch · HuggingFace Transformers · BiLSTM · RoBERTa · NLTK · TF-IDF
 ```
-
-**Visualization & Deployment**
+ 
+**Deployment**
 ```
-matplotlib · seaborn · Streamlit · Jupyter Notebook
+FastAPI · Streamlit · REST API · Swagger
+```
+ 
+**Visualization & Tools**
+```
+matplotlib · seaborn · Plotly · Git · GitHub · VSCode · Kaggle · Jupyter Notebook
 ```
 
 **Tools**
