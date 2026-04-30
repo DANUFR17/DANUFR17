@@ -8,13 +8,34 @@ Currently focused on **e-commerce analytics**, **machine learning**, and **NLP**
 
 ## 🚀 Featured Projects
 
-### 📦 E-Commerce Sales Analysis (Olist)
-> End-to-end analysis of 100K+ transactions from Brazil's largest e-commerce platform
+### 📦 E-Commerce Sales Analysis & Machine Learning (Olist)
+> End-to-end analysis of 100K+ real transactions from Brazil's largest e-commerce platform — covering EDA, customer satisfaction, product analytics, predictive modeling, and customer segmentation
+ 
+#### 📊 1. EDA & Sales Analysis
+- Revenue peaked in **November 2017** (Black Friday Brazil) with consistent growth through 2018
+- Orders most frequent on **weekdays (Mon–Wed)**, dropping significantly on weekends
+- Majority of products priced under **R$150**; right-skewed distribution with high-value outliers
+- Built a **4-panel dashboard** combining monthly order trends, day-of-week patterns, price distribution, and revenue
+#### ⭐ 2. Customer Satisfaction & Review Analysis
+- **76%** of customers gave ratings of 4 or 5 stars
+- Delivery delays >14 days cause average rating to drop from **4.26 → 1.78 (−58%)**
+- Visualized impact with heatmap of rating distribution per delay category
+#### 🛍️ 3. Product Category Analysis
+- Top categories by order volume: **bed & bath**, **health & beauty**, **sports & leisure**
+- Most ordered category ≠ highest revenue category — computers generate high revenue with fewer orders
+- Analyzed average price per category and year-over-year growth trends for top 5 categories
+#### 🤖 4. Machine Learning — Customer Satisfaction Prediction
+- Engineered features from order data: `delay_days`, `delivery_days`, `is_late`, `total_price`, `item_count`, `price_per_item`
+- Trained and compared **Logistic Regression vs Random Forest** classifier
+- Best model: **Random Forest** with **AUC 0.856** and **87% accuracy** on held-out test set
+- `delay_days` and `is_late` were the most dominant features — mathematically confirming EDA findings
+#### 👥 5. Customer Segmentation — RFM + K-Means
+- Computed **Recency, Frequency, Monetary** metrics for 96K+ unique customers
+- Determined optimal K=4 using **Elbow method** and **Silhouette score**
+- Produced 4 actionable segments: **Champions** · **Loyal** · **At Risk** · **Hibernating**
+- Each segment mapped to a targeted business action (loyalty rewards, re-engagement campaigns, win-back offers)
 
-- Identified that delivery delays >14 days drop average customer rating by **58%**
-- Built a **Random Forest classifier** (AUC 0.856) to predict customer satisfaction from order data
-- Segmented 96K customers into 4 behavioral groups using **RFM + K-Means clustering**
-- **Stack**: Python · pandas · scikit-learn · matplotlib · seaborn
+**Stack**: Python · pandas · scikit-learn · matplotlib · seaborn · NumPy · Jupyter · Git
 
 🔗 [[View Repository](https://github.com/DANUFR17/ecommerce-sales-analysis)]
 
